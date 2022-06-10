@@ -1,0 +1,29 @@
+.topInput{
+    display: flex;
+}
+.m-r10 {
+  
+    margin-right: 10px;
+}
+.topInput input {
+    width: 345px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    padding: 10px;
+}
+.bottomInput{
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+
+}
+.bottomInput input {
+    margin-bottom: 15px;
+    border-radius: 15px;
+    padding: 10px;
+}
+.bottomInput textarea {
+    margin-bottom: 15px;
+    border-radius: 15px;
+    padding: 10px;
+}

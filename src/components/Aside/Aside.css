@@ -1,0 +1,140 @@
+.asid-container{
+    width: 25%;
+    position: absolute;
+    right: 150px;
+}
+.icon-menu{
+    color: #eee;
+    position: fixed;
+    font-size: 35px;
+    right: 25px;
+    top: 25px;
+    z-index: 2;
+    justify-content: end;
+ 
+}
+.aside-content{
+ display: flex;
+ width: 550px;
+ justify-content: center;
+ align-items: center;
+ border-left: 1px solid #888;
+ height: 110vh;
+    position: relative;
+    transition: 0.3s;
+   
+}
+
+.out-side-border{
+    border: 1px solid gold;
+    padding: 2rem 5px;
+    position: relative;
+    height: 436px;
+    width: 400px;
+    transition: 0.3s;
+}
+
+.inside-border{
+    border: 1px solid #eee;
+    position: fixed;
+    top: 110px;
+    right: 15px;
+    transform: translate(50% 50%);
+    padding: 5px 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 472px;
+    width: 387px;
+    transition: 0.3s;
+}
+.inside-border p {
+    margin-top: 20px;
+    transition: 0.3s;
+    font-size: 1.1rem;
+    left: 0;
+}
+.inside-border h3{
+    margin-top: 10px;
+    transition: 0.3s;
+    font-size: 2rem;
+    left: 0;
+}
+.inside-border img {
+    border-radius: 50%;
+    width: 320px;
+    transition: 0.3s;
+    position: absolute;
+
+    left: 33px;
+    z-index: 1000;
+}
+.mini-asid-container{
+    width: 230px;
+    position: fixed;
+    right: 50px;  
+}
+.mini-aside-content {
+    width: 250px;
+    transition: 0.3s;
+}
+.mini-aside-content{
+    display: flex;
+    width: 250px;
+    justify-content: center;
+    align-items: center;
+    border-left: 1px solid #888;
+    height: 110vh;
+    position: relative;
+    transition: 0.3s;
+   }
+   
+   .mini-out-side-border{
+       border: 1px solid gold;
+       padding: 2rem 5px;
+       position: relative;
+       height: 236px;
+       width: 200px;
+       transition: 0.3s;
+       
+   }
+   
+   .mini-inside-border{
+       border: 1px solid #eee;
+       position: absolute;
+       top: -18px;
+       left: 5;
+       transform: translate(50% 50%);
+       padding: 5px 2rem;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       text-align: center;
+       height: 287px;
+       width: 187px;
+       transition: 0.3s;
+   }
+   .mini-inside-border p {
+       margin-top: 20px;
+       font-size: 0.6rem;
+       transition: 0.3s;
+       left: 0;
+   }
+   .mini-inside-border h3{
+       margin-top: 10px;
+       font-size: 1.4rem;
+       transition: 0.3s;
+       left: 0;
+   }
+   .mini-inside-border img {
+       border-radius: 50%;
+       width: 120px;
+       transition: 0.3s;
+
+       z-index: 1000;
+   }
+
+
+
+

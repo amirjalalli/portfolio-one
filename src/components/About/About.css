@@ -1,0 +1,24 @@
+.under-about{
+    display: flex;
+    justify-content: space-around;
+}
+.under-about ul li {
+    list-style-type: none;
+    color: #888;
+    font-size: 18px;
+} 
+.border-download{
+    border: 1px solid #eee;
+    padding: 45px 80px;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+.border-download:hover{
+    border: 1px solid goldenrod;
+}
+
+.icon-dow{
+    
+    font-size: 90px;
+    color: #888;
+}   

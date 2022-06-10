@@ -1,38 +1,59 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  background-color: #1d1b19;
+  font-family: 'Jost', sans-serif;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.contanier {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+h1,h2,h3,h4,h5,h6, p {
+  color: #888;
+}
+.gold {
+  color: #987750;
+}
+.border-bottom {
+  border-bottom: 1px solid #eee;
+  width: 100px;
+  height: 1px;
+}
+.m-b20 {
+  margin-bottom: 20px;
+}
+.m-b25{
+  margin-bottom: 25px;
+}
+.m-b15 {
+  margin-bottom: 15px;
+}
+.m-b5{
+  margin-bottom: 5px;
+}
+.m-b32 {
+  margin-bottom: 32px;
+}
+.sub-title{
+  font-size: 35px;
+}
+.title{
+  font-size: 25px;
+}
+.text{
+  font-size: 25px;
+}
+.b-b{
+  border-bottom: 1px solid #888;
+}
+.f-40{
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  font-size: 50px;
+  font-weight: 400;
 }

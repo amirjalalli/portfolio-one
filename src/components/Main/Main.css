@@ -1,0 +1,43 @@
+.mainContent{
+    display: flex;
+}
+.m-left{
+    margin-left: 45px;
+}
+.titleMain{
+    margin: 40px;
+    cursor: pointer;
+}
+.box-Main{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    background-color: #1d1d1d;
+    margin: 5px;
+    border-radius: 15px;
+}
+
+.box-Main div {
+    color: #888;
+    padding: 15px;
+    font-size: 21px;
+}
+
+.b-left {
+    border-left: 1px solid white;
+}
+
+.inputRange{
+    height: 1px;
+    -webkit-appearance: none;
+    background-color: goldenrod;
+    width: 700px;
+    contain: content;
+}
+.underSkillp{
+    color: #888;
+    width: 700px;
+    font-size: 21px;
+    margin-top: 75px;
+
+}

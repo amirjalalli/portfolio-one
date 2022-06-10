@@ -1,0 +1,53 @@
+.service-text{
+    font-size: 1.5rem;
+}
+.service-title {
+    font-size: 45px;
+    font-weight: 400;
+    color: white;
+}
+
+.sevviceMain{
+    border: 1px solid black;
+    background-color: #181715;
+    color: #888;
+}
+.service-content{
+    display: flex;
+    gap: 10px;
+    margin: 15px;
+    background-color: rgba(46, 45, 45, 0.925);
+}
+.right{
+    width: 650px;
+    padding: 15px;
+
+
+}
+.left{
+    right: 250px;
+    border-left: 1px solid #888;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* margin: auto; */
+    /* margin: 0 auto; */
+    text-align: center;
+    margin: 15px auto;
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

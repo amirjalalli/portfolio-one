@@ -1,0 +1,14 @@
+.intr-content{
+      width: 700px;
+      margin: 150px 45px; 
+      transition: 0.3s;
+}
+.mini-intr-content{
+    width: 900px;
+    margin: 100px 45px;
+    transition: 0.3s;
+}
+.icon-ply{
+    color: wheat;
+    font-size: 90px;
+}

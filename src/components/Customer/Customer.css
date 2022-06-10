@@ -1,0 +1,72 @@
+.box{
+    display: flex;
+    flex-wrap: wrap;
+
+    gap: 40px;
+}
+.boxCustomer{
+    border: none;
+    background-color: #181818;
+    color: azure;
+    padding: 80px 0;
+    font-size: 25px;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    transition: 0.3s;
+}
+.boxCustomer:hover {
+    background-color: #2b2a2a;
+}
+
+.swiper1 {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide1 {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  
+  .swiper-slide1 img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+.item {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 25px;
+    background-color: #1d1b19;
+    margin-top: 80px;
+}
+.item h1 {
+   
+    margin-left: 25px;
+    padding: 10px;
+
+}
+.item p {
+    margin-bottom: 35px;
+    padding: 40px;
+}
+  
